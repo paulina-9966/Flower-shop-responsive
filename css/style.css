@@ -1,0 +1,152 @@
+
+/* import fonts from fonts.css file */ 
+@import url(./fonts.css);
+
+/* Global Classes */ 
+
+.title-text{
+    font:  bold 3.5rem var(--longCang);
+}
+.title-text-medium {
+    font:  bold 2.5rem var(--longCang);
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+/* Buttons */ 
+
+.button{
+    padding: .8rem 2.2rem;
+    font: normal 500 16px/20px var(--longCang);
+    position: relative;
+    border: 3px solid transparent;
+    border-radius: 4px;
+}
+
+p.para{
+    color: var(--text-color);
+    font: normal 500 16px/ 25px var(--longCang);
+}
+
+button:focus,
+button:active
+button:hover
+.btn:active,
+.btn.active{
+    outline: 0px !important;
+    box-shadow: none !important;
+}
+
+
+.navbar_fixed{
+    position: fixed;
+    width: 100%;
+    top: -1px;
+    left: 0; right: 0;
+    background: #ffffff;
+    box-shadow: var(--box-shadow);
+    z-index: 999;
+    transition: background 1s ease;
+}
+
+/* start navigation */ 
+
+.header_area .main-menu .navbar .navbar-brand{
+    padding: 0 2rem 0 5rem;
+}
+
+.header_area .main-menu .navbar{
+    padding: 1rem 20rem ;
+}
+
+.header_area .main-menu .nav-item .nav-link{
+    font: normal 2rem var(--longCang);
+    text-transform: capitalize;
+    padding: 1.7rem;
+    color: var(--title-color);
+}
+
+.header_area .main-menu .navbar-nav .active a{
+    background: var(--title-color);
+    font: bold 2rem var(--longCang);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+    background: var(--title-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* end navigation */ 
+
+/* Project Area */ 
+
+.site-main .project-area{
+    padding: 4rem 0;
+    background-color: var(--primary-color);
+}
+.project-title{
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.site-main .project-area .grid .our-products .img a:hover img{
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+
+}
+.img-fluid {
+    object-fit: fill; 
+}
+.site-main .project-area .button-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: auto;
+    padding-right: auto;
+}
+.site-main .project-area .button-group button{
+    background: transparent;
+    border: solid 1px var(--primary-color3);
+    border-radius: 10px;
+    font: bold 2.5rem var(--longCang);
+    text-transform: uppercase;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+/* End Project Area */ 
+
+
+/* About us */ 
+
+.about-img {
+    padding: 1rem;
+    margin: 3rem auto;
+}
+.about-img img{
+    width: 100%;
+    height: auto;
+}
+
+.btn-submit{
+    background-color: var(--gradient-color);
+    color: var(--primary-color4);
+    border-color: var(--primary-color4);
+    
+}
+
+footer.footer-area .social a > i{
+    font-size:26px;
+    padding: 2rem;
+    color: var(--primary-color4);
+}
+
+footer.footer-area .social a:hover > i{
+    color: var(--primary-color3);
+} 

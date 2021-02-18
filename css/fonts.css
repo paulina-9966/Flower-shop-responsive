@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Long+Cang&display=swap');
+
+/* CSS Variables */ 
+
+:root{
+    --primary-color: #f4e7fa;
+    --primary-color2: #C172E3;
+    --primary-color3: #9922CC;
+    --primary-color4: #370C4A;
+    --title-color: #eeeeee;
+    --text-color: #eeeeee;  
+    --border-color: #201f1f17;  
+    --gradient-color: linear-gradient(90deg, #DF8A8A 0%, #DE4848 100%);
+    --shadow-color:  0px 10px 30px rgba(243, 214, 231, 0.897);
+    --box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+   
+
+    /* font family variables. */ 
+    --longCang: 'Long Cang', cursive;
+} 
+
+*{
+    font-family: 'Long Cang', cursive;
+}
+html, body{
+    margin: 0%;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-color);
+}
+
+
